@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,700&family=Comforter+Brush&family=Lato&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: black;
     text-shadow: 1px 1px 2px #fff;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* Display: Inline-Flex */
@@ -183,4 +190,12 @@ footer p {
     align-self: auto;
     background-color: rgba(127, 193, 255, 0.473);
     width: 300px;
+}
+.label {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.woof { 
+    position: relative;
+    left: 30%;
 }
