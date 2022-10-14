@@ -59,14 +59,6 @@ footer p {
 main img {
     width: 9em;
 }
-.ds {
-    width: 15em;
-
-}
-.truly-special {
-    display: inline-flex;
-
-}
 cursor {
     pointer-events: painted;
 }
@@ -169,4 +161,26 @@ footer p {
 }
 #footarge {
     min-height: 15vh;
+}
+/* Specifiicty */
+#caninez {
+    margin-left: 690px;
+    align-self: center;
+}
+
+#pit {
+    align-self: auto;
+    background-color: rgba(127, 255, 212, 0.473);
+    width: 300px;
+}
+#boerie {
+    align-self: auto;
+    background-color: rgba(127, 238, 255, 0.473);
+    width: 300px;
+}
+
+#pinscher {
+    align-self: auto;
+    background-color: rgba(127, 193, 255, 0.473);
+    width: 300px;
 }
