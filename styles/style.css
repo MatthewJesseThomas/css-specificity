@@ -173,7 +173,7 @@ footer p {
 /* If there are two or more CSS rules that point to the same element, the selector with the highest specificity value will "win", and its style declaration will be applied to that HTML element.
 
 Think of specificity as a score/rank that determines which style declaration is ultimately applied to an element. */
-/* #caninez {
+#caninez {
     margin-left: 690px;
     align-self: center;
 }
